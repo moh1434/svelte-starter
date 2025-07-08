@@ -27,5 +27,8 @@
     "src/**/*.ts",
     "src/**/*.js",
     "src/**/*.svelte"
+  ],
+  "types": [
+    "svelte"
   ]
 }
