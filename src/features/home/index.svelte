@@ -3,6 +3,6 @@
 
 </script>
 <div>
-  <h1>Home {route.pathname}</h1>
+  <h1 class="text-3xl font-bold underline">Home {route.pathname}</h1>
   <a href={p('/foo')}>go to Foo page</a>
 </div>
