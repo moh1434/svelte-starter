@@ -1,7 +1,8 @@
 <script lang="ts">
-	import { p } from '@/router';
+	import { route, p } from "@/router";
 </script>
+
 <div>
-  <h1 class="text-3xl font-bold underline">foo page</h1>
-    <a href={p('/foo')}>go to Home page</a>
+	<h1 class="text-3xl font-bold underline">{route.pathname}</h1>
+	<a class="mt-4 block" href={p("/")}>go to Home page</a>
 </div>
